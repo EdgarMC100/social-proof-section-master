@@ -26,14 +26,15 @@ html {
 }
 
 main{
-       width: 85%;
+       width: 70%;
+       height: 100vh;
        /* height: 700px; */
        margin:auto auto;
 }
 
 main .top-section{
     display: grid;
-    grid-template-columns: 1fr 2fr;
+    grid-template-columns: 2fr 2fr;
     margin-top: 10rem;
     margin-bottom: 5rem;
 }
@@ -45,7 +46,7 @@ main .top-section .main-text h1{
 }
 
 main .top-section .main-text p{
-    font-size: 1.2rem;
+    font-size: 1.6rem;
     font-weight: 500;
     color: var(--dark-grayish-magenta);
     margin-top: 1.5rem;
@@ -66,7 +67,7 @@ main .top-section .califications .calification-container{
     /* display: inline; */
     /* line-height: 20px; */
     /* padding: 10px; */
-    width: 60%;
+    width: 80%;
     height: 50px;
     margin-bottom: 15px;
     border-radius: 8px;
@@ -94,7 +95,7 @@ main .bottom-section .cards{
 
 main .bottom-section .cards .card{
     /* width: 295px; */
-    height: 180px;
+    height: 200px;
     display: flex;
     flex-flow: row wrap;
     padding: 25px;
@@ -186,9 +187,9 @@ main .bottom-section .cards .card-3{
 
 .left-top{
     position: fixed;
-    top: -40px;
+    top: 0px;
     left: 0px;
-    transform: scale(.8,.8);    
+    /* transform: scale(.8,.8);     */
     /* transform: rotateY(360deg); */
 }
 
@@ -197,7 +198,6 @@ main .bottom-section .cards .card-3{
     bottom: 0px;
     right: 0px;
     /* transform: scale(1,1); */
-    /* bottom: -100px;
     right: -50px; */
     /* transform: scale(1,2);
     transform: rotate(5deg); */
