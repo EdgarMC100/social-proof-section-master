@@ -18,6 +18,7 @@
 
 
 html{
+  
   box-sizing: border-box;
   font-size: 62.5%;
   /* height: 100%; */
@@ -27,7 +28,8 @@ html{
 
 main{
        /* max-width: 1440px; */
-       width: 78.8%;
+
+       width: 77%;
        height: 90vh;
        /* height: 700px; */
        margin-left:auto;
