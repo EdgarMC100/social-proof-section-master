@@ -39,7 +39,7 @@ main{
 main .top-section{
     display: grid;
     grid-template-columns: 1fr 1fr;
-    margin-top: 12.8rem;
+    margin-top: 12.6rem;
     margin-bottom: 5rem;
 }
 
@@ -98,8 +98,8 @@ main .bottom-section .cards{
 }
 
 main .bottom-section .cards .card{
-    /* width: 295px; */
-    height: 200px;
+    width: 350px;
+    height: 240px;
     display: flex;
     flex-flow: row wrap;
     padding: 25px;
