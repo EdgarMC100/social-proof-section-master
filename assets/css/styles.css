@@ -17,19 +17,17 @@
 }
 
 
-html{
-  box-sizing: border-box;
+body{
   font-size: 62.5%;
   /* height: 100%; */
   font-family: "Spartan", Arial, Helvetica, sans-serif;
-  min-height: 800px;
+  min-height: 100vh;
+  padding-top: 130px;
 }
 
 main{
-       /* max-width: 1440px; */
-
-       width: 1109px;
-       height: 90vh;
+       max-width: 1440px;
+       /* width: 1109px; */
        /* height: 700px; */
        margin-left:auto;
        margin-right:auto;
