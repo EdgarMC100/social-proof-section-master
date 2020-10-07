@@ -22,13 +22,13 @@ html{
   font-size: 62.5%;
   /* height: 100%; */
   font-family: "Spartan", Arial, Helvetica, sans-serif;
-  /* height: 100vh; */
+  min-height: 100vh;
 }
 
 main{
        /* max-width: 1440px; */
 
-       width: 77%;
+       width: 1109px;
        height: 90vh;
        /* height: 700px; */
        margin-left:auto;
@@ -37,7 +37,7 @@ main{
 
 main .top-section{
     display: grid;
-    grid-template-columns: 1fr 1fr;
+    grid-template-columns: 50% 50%;
     margin-top: 12.6rem;
     margin-bottom: 5rem;
 }
