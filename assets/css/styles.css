@@ -35,7 +35,7 @@ main{
 main .top-section{
     display: grid;
     grid-template-columns: 1fr 1fr;
-    margin-top: 12rem;
+    margin-top: 13rem;
     margin-bottom: 5rem;
 }
 
