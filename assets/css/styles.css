@@ -194,9 +194,9 @@ main .bottom-section .cards .card-3{
 
 .right-bottom{
     position: fixed;
-    bottom: -100px;
-    right: -100px;
-    transform: scale(1,1);
+    bottom: 0px;
+    right: 0px;
+    /* transform: scale(1,1); */
     /* bottom: -100px;
     right: -50px; */
     /* transform: scale(1,2);
