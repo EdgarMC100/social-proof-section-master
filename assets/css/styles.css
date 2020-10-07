@@ -26,7 +26,7 @@ html {
 }
 
 main{
-       width: 70%;
+       width: 75%;
        height: 100vh;
        /* height: 700px; */
        margin:auto auto;
@@ -34,13 +34,13 @@ main{
 
 main .top-section{
     display: grid;
-    grid-template-columns: 2fr 2fr;
+    grid-template-columns: 1fr 1fr;
     margin-top: 10rem;
     margin-bottom: 5rem;
 }
 
 main .top-section .main-text h1{
-    font-size: 4rem;
+    font-size: 5rem;
     font-weight: 700;
     color: var(--very-dark-magenta);
 }
