@@ -22,7 +22,7 @@ html{
   font-size: 62.5%;
   /* height: 100%; */
   font-family: "Spartan", Arial, Helvetica, sans-serif;
-  min-height: 100vh;
+  min-height: 800px;
 }
 
 main{
@@ -43,6 +43,7 @@ main .top-section{
 }
 
 main .top-section .main-text h1{
+    /* width: 200px; */
     font-size: 4.6rem;
     font-weight: 700;
     color: var(--very-dark-magenta);
